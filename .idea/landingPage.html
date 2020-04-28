@@ -7,102 +7,102 @@
     <title>MANITO</title>
     <link rel="stylesheet" href="landingPage.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
     <script src="../JS/landing.js"></script>
-    
+
     <script src="https://kit.fontawesome.com/298d08bd5d.js" crossorigin="anonymous"></script>
 
-    <nav>
-        <div class="left_navigation_bar navigation">
-            <div> Home</div>
-            <div> Music </div>
+    <!-- <nav>
+        <div class="left_navigation_bar navigation container">
+          <a href="#home">  <div> Home</div></a>
+           <a href="#disco"> <div> Music </div></a>
 
 
-            <div> About</div>
-            <div> Tour Dates</div>
+           <a href="#about"> <div> About</div></a>
+           <a href="#tour"> <div> Tour Dates</div></a>
         </div>
+    </nav>  -->
+
+    <nav class="navbar fixed-bottom  navbar-dark  bg-* container">
+        <div class="promotion_album"> MANITO NATION </div>
+        <a class="navbar-brand" href="#">Home</a>
+        <a class="navbar-brand" href="#">Discography</a>
+        <a class="navbar-brand" href="#">About </a>
+        <a class="navbar-brand" href="#"> Tour</a>
+
+
+
     </nav>
 </head>
 
 <body>
-    <div class="main_container container">
-        <div class="blac">
-            <div class=" fonts">
-                <i class="fab fa-facebook-square"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-soundcloud"></i>
-            </div>
-            <div class="container">
-
-                <div>
-                    <p class="promotion_album"> MANITO NATION </p>
-                    <!-- <div>
-                    NEW ALBUM
-                    ESCAPE 3
-                </div> -->
-                </div>
-            </div>
-
+    <div class="container media_container">
+        <div class=" fonts">
+            <i class="fab fa-facebook-square icon"></i>
+            <i class="fab fa-twitter icon "></i>
+            <i class="fab fa-instagram icon"></i>
+            <i class="fab fa-soundcloud"></i>
         </div>
-        <div class="discography_container">
-            <div class="discography">
+    </div>
+    <div class="discography_container container">
+        <div class="discography" id="disco">
 
-                <div class="album_description">
-                    <h2>Discography</h2>
-                    <h1><span>Escape</span> is my <br> new Album!</h1>
-                    <p> Vivamus in diam turpis. In condimentum maximus tristique.
-                        Maecenas non laoreet odio. Fusce lobortis porttitor purus, vel vestibulum libero pharetra vel.
-                        Pellentesque lorem augue, fermentum nec nibh et, fringilla sollicitudin orci.\
-                        Integer pharetra magna non ante blandit lobortis. Sed mollis consequat eleifend. Aliquam
-                        consectetur
-                        orci eget dictum.
-                    </p>
-                    <a href="">
-                        <div class="spotify">
-                            <i class="fab fa-spotify"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="album_container">
-                    <img class="album_pic" src="../Images/album_image.jfif" alt="">
-                    </img>
-                </div>
+            <div class="album_description">
+                <h2>Discography</h2>
+                <h1><span>Escape</span> is my <br> new Album!</h1>
+                <p> Vivamus in diam turpis. In condimentum maximus tristique.
+                    Maecenas non laoreet odio. Fusce lobortis porttitor purus, vel vestibulum libero pharetra vel.
+                    Pellentesque lorem augue, fermentum nec nibh et, fringilla sollicitudin orci.\
+                    Integer pharetra magna non ante blandit lobortis. Sed mollis consequat eleifend. Aliquam
+                    consectetur
+                    orci eget dictum.
+                </p>
+             
+            </div>
+            <div class="album_container">
+                <img class="album_pic" src="../Images/album_image.jfif" alt="">
+                </img>
+                <!-- <iframe src="https://open.spotify.com/embed/artist/1QkGRbRqamey07IpztT9v3" width="300" height="380" toogle ="compact" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> -->
             </div>
         </div>
+    </div>
 
-        <div class="about_container">
-            <div class="history_description">
-                <div class="about_info">
+    <div class="about_container container">
+        <div class="history_description">
+            <div class="about_info" id="about">
                 <h2> About me</h2>
                 <h1 class="about_me_h1">A few words about me</h1>
                 <p class="para">Mauris rhoncus orci in imperdiet placerat.
-                    Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt
+                    Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh,
+                    tincidunt
                     ut
                     eros a, vulputate consequat
                     odio. Vestibulum vehicula tempor nulla, sed hendrerit urna interdum in. Donec et nibh maximus,
                     congue
                     est eu, mattis nunc.</p>
-                </div>
-                <div class="music_info">
+            </div>
+            <div class="music_info">
                 <h1 class="music_info_h1">History of my music </h1>
 
-                    <p class="para">
-                        Mauris rhoncus orci in imperdiet placerat.
-                        Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh,
-                        tincidunt
-                        ut
-                        eros a, vulputate consequat
-                        odio. Vestibulum vehicula tempor nulla, sed hendrerit urna interdum in. Donec et nibh maximus,
-                        congue
-                        est eu, mattis nunc.
-                    </p>
-                </div>
+                <p class="para">
+                    Mauris rhoncus orci in imperdiet placerat.
+                    Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh,
+                    tincidunt
+                    ut
+                    eros a, vulputate consequat
+                    odio. Vestibulum vehicula tempor nulla, sed hendrerit urna interdum in. Donec et nibh maximus,
+                    congue
+                    est eu, mattis nunc.
+                </p>
             </div>
-
         </div>
-        <div class="event_container">
-            <div class=" event_description">
-                <div class="image-wrapper">
+
+    </div>
+    <div class="event_container" id="tour">
+        <div class=" event_description">
+            <div class="image-wrapper">
                 <img class="image" src="../Images/Profile_test2.jpg" alt="">
             </div>
             <div class="event_para">
@@ -115,57 +115,67 @@
                     odio. Vestibulum vehicula tempor nulla, sed hendrerit urna interdum in. Donec et nibh maximus,
                     congue
                     est eu, mattis nunc.</p>
-                </div>
             </div>
-            <div class="event_schedule">
-                <div class="event event_1">
+        </div>
+        <div class="event_schedule container">
+            <div class="event event_1 container">
                 <div class="date">
                     <span class="event_day ">25</span>
-                   <span class="event_month">November</span> 
+                    <span class="event_month">November</span>
                 </div>
                 <div class="location">
-                    <span class="thecolor">The Venue</span> 
+                    <span class="thecolor">The Venue</span>
+                    <div class=" city">
+                        <span class="thecolor">\New York, NY</span>
+                    </div>
                 </div>
-                <div class=" city">
-                    <span class="thecolor">NEW YORK</span>
+                
+                <div class="reservation">
+                 
+                    <button class="notify" src=" "> Notify me</button>
                 </div>
-                <div class="rsvp_button">  <button scr=''> RSVP</button>
-                    <button src=" "> Notify me</button></div>
             </div>
         </div>
+        <div class="event_schedule container">
+            <div class="event event_1 container">
+                <div class="date">
+                    <span class="event_day ">25</span>
+                    <span class="event_month">November</span>
+                </div>
+                <div class="location">
+                    <span class="thecolor">The Venue</span>
+                    <div class=" city">
+                        <span class="thecolor">\New York, NY</span>
+                    </div>
+                </div>
+                
+                <div class="reservation">
+                 
+                    <button class="notify" src=" "> Notify me</button>
+                </div>
+            </div>
+        </div>
+        <div class="event_schedule container">
+            <div class="event event_1 container">
+                <div class="date">
+                    <span class="event_day ">25</span>
+                    <span class="event_month">November</span>
+                </div>
+                <div class="location">
+                    <span class="thecolor">The Venue</span>
+                    <div class=" city">
+                        <span class="thecolor">\New York, NY</span>
+                    </div>
+                </div>
+                
+                <div class="reservation">
+                 
+                    <button class="notify" src=" "> Notify me</button>
+                </div>
+            </div>
         </div>
 
 
-        <div class="gallery">
-            <!-- <div class="slide effect"><img src="../Images/citadelle_laferriere.jpg" alt=""></div>
-            <div class="slide effect"><img src="../Images/Profile_2.jpg" alt=""></div>
-            <div class="slide effect"><img src="../Images/e0c95924-4dff-402d-8934-df8b4eb84519.jpeg" alt=""></div>
-            <div class="slide effect"><img src="../Images/Profile_2.jpg" alt=""></div>
-            <div class="slide effect"><img src="../Images/e0c95924-4dff-402d-8934-df8b4eb84519.jpeg" alt=""></div> -->
-
-
-
-
-            <!-- <div class="video">
-        <iframe width="898" height="480" 
-        src="https://www.youtube-nocookie.com/embed/zFBV4lg1iuw?start=3" 
-        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    <div class="quote">
-        <p>
-            "TRADIONAL MUSIC IS MY STRENGHT"
-        </p>
-
-    </div>
-    <div class="Slideshow">
-        <div class="slide effect"><img src="../Images/citadelle_laferriere.jpg" alt=""></div>
-        <div class="slide effect"><img src="../Images/Profile_2.jpg" alt=""></div>
-        <div class="slide effect"><img src="../Images/e0c95924-4dff-402d-8934-df8b4eb84519.jpeg" alt=""></div>
-        <div class="slide effect"><img src="../Images/Profile_2.jpg" alt=""></div>
-        <div class="slide effect"><img src="../Images/e0c95924-4dff-402d-8934-df8b4eb84519.jpeg" alt=""></div>
-
-    </div> -->
-        </div>
 </body>
 
 </html>

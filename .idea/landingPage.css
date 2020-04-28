@@ -1,128 +1,78 @@
-
-@import url('https://fonts.googleapis.com/css?family=Krona+One&display=swap');* {
+* {
     margin: 0;
     padding: 0;
-  }
-  body {
-    /* font-family: Arial, Helvetica, sans-serif; */
- 
-    height: 100vh;
-    width: 100vw;
-    /* color:#999999; */
-    background:black;
-    overflow-x: hidden;
-    font-weight: 400;
-    font-family: 'Krona One', sans-serif;
-    
-
-  }
-  span{
-      color: orange;
-  }
-  body > .main_container {
+}
+body  {
     background-image: url(../Images/e0c95924-4dff-402d-8934-df8b4eb84519.jpeg);
     background-repeat: no-repeat;
     background-size: cover;    
     background-attachment: fixed;
-  }
-  
-nav{
-
-    position: relative;
-    top: 57%;
-    color: blanchedalmond;
-
-}
-.navigation {
-    display: flex;
-    justify-content: space-between;
-    width: 39%;
-    padding-left: 29%;
-    font-size: 22px;
-    font-family: 'calibri';
-    font-weight: lighter;
-}
-
-
-.discography_container {
-
-   background-color: black;
-    
-}
-.blac{
-    /* background-color: #0e0e0e;
-    height: 50em;
-    background-size: cover;
-    background-attachment: fixed;
-    opacity: 0.3; */
-    background-image: url('../Images/pattern.png');
     height: 100vh;
-    margin-top: -2%;
-}
-.promotion_album {
-    display: table;
-    align-items: center;
-    position: relative !important;
-    top: 282px ;
-    left: 22% ;
-    color: #FE9B36;
-    font-size: 124px;
-    font-weight: bolder;
-    font-family: 'Calibri', 'sans-serif';
-    color: #FE9B36;
+    background-position-x: center;
     
-    font-weight: lighter;
-}
-.video {
-    background-image: url(../Images/brown-wooden-B&W.jpg);
-    height: 61vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    
-}
-.quote{
-    height: 7vh;
-text-align: center;
-padding-top: 2%;
-background-color:#ffffff;
-font-size: 30px;
-font-weight: bold;
-}
-.discography { 
-    color: white;
-    display: flex;
-    width: 87%;
-    margin: 0% 15%;
-    height: 94vh;
-    padding-top: 9em;
-}
-.fonts {
+  }
+  .navbar {
+      position: absolute !important;
+  }
+  nav{
+    margin-bottom: 18em;
+  }
+  .fonts {
     color: #bbb;
-    font-size: 30px;
+    font-size: 24px;
     display: flex;
     justify-content: flex-end;
     justify-content: space-evenly;
     position: relative;
-    top: 2%;
-    left: 78%;
+    top: 6px;
+    left: 70%;
     width: 20%;
 }
-.album_container{
-    position: relative;
-    left: 4%;
+.media_container{
+    height: 100%;
 }
-.album_pic{
-    max-width: 100%;
+.icon {
+    margin-right: 18px;
 
-    height: 71%;
 }
+
+.promotion_album {
+    display: table;
+    align-items: center;
+    position: relative !important;
+    top: 147px;
+    left: 8%;
+    color: #FE9B36;
+    font-size: 82px;
+    font-weight: bolder;
+    font-family: 'Calibri', 'sans-serif';
+    font-weight: lighter;
+}
+
+/* ----------------------------------------------end of Nav bar and page 1 ---------------------------- */
+.discography { 
+    color: white;
+    display: flex;
+    width: 88%;
+    margin: 0% 15% 0% 7%;
+    height: 118%;
+    padding-top: 2em;
+    flex-direction: column;
+}
+.discography_container {
+
+    background-color: black;
+    /* overflow-x: hidden; */
+    width: 103vw !important;
+     
+ }
+
 .album_description {
  font-size: 18px;
-width: 28vw;
+
 }
 .album_description > h1 {
-    padding-top: 40px;
+    padding-top: 5px;
     
 }
 .album_description >h2 {
@@ -133,37 +83,43 @@ border: 1px solid orange;
 border-radius: 14px;
 text-align: center;
 height: 23px;
-padding-top: 5px;
+padding-top: 1px;
 }
 
 .discography > .album_container {
- position: relative;
-left: 7%;
-}
-p {
-    font-family: "Barlow", Arial, Tahoma, sans-serif;
+    position: relative;
+   left: 0%;
+   }
+   p {
+       font-family: "Barlow", Arial, Tahoma, sans-serif;
+   
+   }
+   .album_description > p {
+   font-size: 16px;
+   margin-top: 37px;
+   line-height: 28px;
+   }
 
-}
-.album_description > p {
-font-size: 16px;
-margin-top: 37px;
-line-height: 28px;
-}
 
+.album_pic{
+    max-width: 100%;
+  
+}
+/* -----------------------------------------------------------END OF DISCROGRAPGY---------- */
 .about_container {
     background: #ffffff;
-    height: 93vh;
+ 
+    width: 103% !important;
 }
 
 .history_description{
-    display: flex;
-    width: 64vw;
+  
     position: relative;
-    left: 15%;
-    top: 16%;
+    left: 8%;
+    top: 4%;
 }
 .history_description > .about_info {
-    margin-right: 74px;
+    margin-right: 38px;
 }
 .history_description > .about_info > h2{
     font-size: 13px;
@@ -172,8 +128,10 @@ line-height: 28px;
     border: 1.7px solid orange;
     border-radius: 14px;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 2px;
     height: 23px;
+    position: relative;
+    top: 19px;
 
 }
  .about_me_h1{
@@ -190,13 +148,11 @@ line-height: 28px;
 }
 .music_info_h1 {
         font-size: 44px;
-        padding-top: 61px;
+        padding-top: 24px;
 }
 
+/* -------------------------------------end of about section ------------------------------------- */
 
-
-
-/* ------------------------------------event---------------------------- */
 .event_container {
     background-color:orange
 
@@ -204,15 +160,13 @@ line-height: 28px;
 .event_para {
     
     position: relative;
-    left: 73px;
-    top: 65px;
+    left: 55px;
+    top: 15px;
 }
 .event_description {
-    display: flex;
-    width: 64vw;
-    position: relative;
-    left: 15%;
-    top: 16%;
+   
+    width: 81vw;
+  
 }
 
 .image-wrapper > img  { 
@@ -226,24 +180,23 @@ height: auto;
 position: relative;
 overflow: hidden;
 border-color: #e2e2e2;
-top: -137px;
-width: 170%;
+top: -15px;
+width: 124%;
 }
 .event_para > h2 {
-    font-size: 13px;
+    font-size: 17px;
     color: black;
     width: 102px;
     border: 1.7px solid rgb(255, 255, 255);
     border-radius: 14px;
     text-align: center;
-    padding-top: 5px;
-    height: 23px;
-
+    padding-top: 1px;
+    height: 27px;
 }
 
 .event_para > h1 {
     font-size: 44px;
-    padding-top: 61px;
+    padding-top: 14px;
 }
 
 .event_para >  p {
@@ -251,30 +204,19 @@ width: 170%;
     margin-top: 37px;
     line-height: 28px;
 }
-.selector-for-some-widget {
-    box-sizing: content-box;
-  }
 
-/* -------------------------------------event_dates ------------------- */
+/* --------------------------------------------------end of tour description ------------------------------------ */
 
 .event_schedule{
     display: flex;
-    width: 64vw;
-    position: relative;
-    left: 15%;
-    top: 16%;
 
 }
 
 .event{
-    display: inline-flex;
-    background-color: yellow;
-    width: 64vw;
-    font-size: 12px;
-    font-family: "Barlow", Arial, Tahoma, sans-serif;
+    border-bottom: 1.5px solid black;
+    height: 25vh;
 }
-.event_schedule {
-}
+
 .event_day {
  font-size: 14px;
  color: black;
@@ -287,22 +229,43 @@ font-weight: 700;
 .event_month {
 color: black;
 }
+.month_day_year_location{
+    
+}
+
 .thecolor {
     color: black;
 }
 .location {
-    font-size: 16px !important;
-    font-weight: 700 !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
     color: black;
-    padding: 23.5px 48px 0px 35px;
+    padding: 2.5px 50px 0px 1px;
+    display: flex;
 
 }
 .city {
 color: black;
-padding-top: 26px;
+padding-left: 9px;
+ font-size: 17px;
 
 }
 
-.rsvp_button {
-    padding: 21px 68px 0px 28em;
+
+/* ------------------------------------------------------ */
+.reservation {
+    /* position: relative;
+    left: 28em; */
+    margin-top:8px;
+}
+
+.notify {
+    height: 6vh;
+    width: 80vw;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #eee;
+    background: transparent;
+    color: #0e0e0e;
+
 }
