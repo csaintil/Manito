@@ -1,0 +1,18 @@
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        width: 39%;
+        padding-left: 29%;
+        font-size: 22px;
+        font-family: 'calibri';
+        font-weight: lighter;
+    }
+
+.icon {
+    color: red;
+}
+
+ }

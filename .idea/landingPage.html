@@ -6,52 +6,41 @@
     <meta charset="UTF-8">
     <title>MANITO</title>
     <link rel="stylesheet" href="landingPage.css">
+    <link rel="stylesheet" href="larger_devices.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
     <script src="../JS/landing.js"></script>
-
     <script src="https://kit.fontawesome.com/298d08bd5d.js" crossorigin="anonymous"></script>
 
-    <!-- <nav>
-        <div class="left_navigation_bar navigation container">
-          <a href="#home">  <div> Home</div></a>
-           <a href="#disco"> <div> Music </div></a>
-
-
-           <a href="#about"> <div> About</div></a>
-           <a href="#tour"> <div> Tour Dates</div></a>
-        </div>
-    </nav>  -->
-
-    <nav class="navbar fixed-bottom  navbar-dark  bg-* container">
+    
+    <nav class="navbar fixed-bottom navi navbar-dark  bg-* container-fluid" id="navi" role="navigation">
         <div class="promotion_album"> MANITO NATION </div>
-        <a class="navbar-brand" href="#">Home</a>
-        <a class="navbar-brand" href="#">Discography</a>
-        <a class="navbar-brand" href="#">About </a>
-        <a class="navbar-brand" href="#"> Tour</a>
-
-
-
+        <a class="navbar-brand" href="#home">Home</a>
+        <a class="navbar-brand " href="#disco">Discography</a>
+        <a class="navbar-brand" href="#about">About </a>
+        <a class="navbar-brand" href="#tour"> Tour</a>
     </nav>
+  
 </head>
 
 <body>
-    <div class="container media_container">
-        <div class=" fonts">
-            <i class="fab fa-facebook-square icon"></i>
-            <i class="fab fa-twitter icon "></i>
-            <i class="fab fa-instagram icon"></i>
-            <i class="fab fa-soundcloud"></i>
+
+        <div class="container-fluid media_container" id="home">
+            <div class=" fonts">
+                <a href=""> <i class="fab fa-facebook-square icon"></i></a>
+                <a href="https://twitter.com/ManitoNation"><i class="fab fa-twitter icon "></i></a>
+                <a href="https://www.instagram.com/manitonation/"> <i class="fab fa-instagram icon"></i></a>
+                <a href=""><i class="fab fa-soundcloud icon"></i></a>
+                <!-- <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:1QkGRbRqamey07IpztT9v3?si=lreAOz1dQv2bP7F7gnf3LA&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe> -->
+            </div>
         </div>
-    </div>
-    <div class="discography_container container">
+    <div class="discography_container container-fluid">
         <div class="discography" id="disco">
 
             <div class="album_description">
                 <h2>Discography</h2>
-                <h1><span>Escape</span> is my <br> new Album!</h1>
+                <h1><span class="special_words">Escape</span> is my new  <br> Album!</h1>
                 <p> Vivamus in diam turpis. In condimentum maximus tristique.
                     Maecenas non laoreet odio. Fusce lobortis porttitor purus, vel vestibulum libero pharetra vel.
                     Pellentesque lorem augue, fermentum nec nibh et, fringilla sollicitudin orci.\
@@ -59,19 +48,23 @@
                     consectetur
                     orci eget dictum.
                 </p>
-             
+                <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:1QkGRbRqamey07IpztT9v3?si=lreAOz1dQv2bP7F7gnf3LA&size=detail&theme=light" width="300"
+                height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+
             </div>
             <div class="album_container">
                 <img class="album_pic" src="../Images/album_image.jfif" alt="">
+                <iframe src="https://open.spotify.com/embed/artist/1QkGRbRqamey07IpztT9v3" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>            </div>
+
                 </img>
-                <!-- <iframe src="https://open.spotify.com/embed/artist/1QkGRbRqamey07IpztT9v3" width="300" height="380" toogle ="compact" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> -->
-            </div>
         </div>
     </div>
 
-    <div class="about_container container">
+    <div class="about_container container-fluid">
         <div class="history_description">
             <div class="about_info" id="about">
+
+                
                 <h2> About me</h2>
                 <h1 class="about_me_h1">A few words about me</h1>
                 <p class="para">Mauris rhoncus orci in imperdiet placerat.
@@ -84,7 +77,7 @@
                     est eu, mattis nunc.</p>
             </div>
             <div class="music_info">
-                <h1 class="music_info_h1">History of my music </h1>
+                <h1 class="music_info_h1">History of  my <br>  music </h1>
 
                 <p class="para">
                     Mauris rhoncus orci in imperdiet placerat.
@@ -98,9 +91,8 @@
                 </p>
             </div>
         </div>
-
     </div>
-    <div class="event_container" id="tour">
+    <div class="event_container container-fluid " id="tour">
         <div class=" event_description">
             <div class="image-wrapper">
                 <img class="image" src="../Images/Profile_test2.jpg" alt="">
@@ -117,8 +109,10 @@
                     est eu, mattis nunc.</p>
             </div>
         </div>
-        <div class="event_schedule container">
-            <div class="event event_1 container">
+    
+    
+        <div class="event_schedule ">
+            <div class="event event_1 ">
                 <div class="date">
                     <span class="event_day ">25</span>
                     <span class="event_month">November</span>
@@ -129,52 +123,60 @@
                         <span class="thecolor">\New York, NY</span>
                     </div>
                 </div>
-                
-                <div class="reservation">
-                 
-                    <button class="notify" src=" "> Notify me</button>
-                </div>
-            </div>
-        </div>
-        <div class="event_schedule container">
-            <div class="event event_1 container">
-                <div class="date">
-                    <span class="event_day ">25</span>
-                    <span class="event_month">November</span>
-                </div>
-                <div class="location">
-                    <span class="thecolor">The Venue</span>
-                    <div class=" city">
-                        <span class="thecolor">\New York, NY</span>
-                    </div>
-                </div>
-                
-                <div class="reservation">
-                 
-                    <button class="notify" src=" "> Notify me</button>
-                </div>
-            </div>
-        </div>
-        <div class="event_schedule container">
-            <div class="event event_1 container">
-                <div class="date">
-                    <span class="event_day ">25</span>
-                    <span class="event_month">November</span>
-                </div>
-                <div class="location">
-                    <span class="thecolor">The Venue</span>
-                    <div class=" city">
-                        <span class="thecolor">\New York, NY</span>
-                    </div>
-                </div>
-                
-                <div class="reservation">
-                 
-                    <button class="notify" src=" "> Notify me</button>
-                </div>
-            </div>
-        </div>
 
+                <div class="reservation">
+
+                    <button class="notify" src=" "> Notify me</button>
+                </div>
+            </div>
+        </div>
+      
+        <div class="event_schedule ">
+            <div class="event event_1 ">
+                <div class="date">
+                    <span class="event_day ">25</span>
+                    <span class="event_month">November</span>
+                </div>
+                <div class="location">
+                    <span class="thecolor">The Venue</span>
+                    <div class=" city">
+                        <span class="thecolor">\New York, NY</span>
+                    </div>
+                </div>
+
+                <div class="reservation">
+
+                    <button class="notify" src=" "> Notify me</button>
+                </div>
+            </div>
+        </div>
+        <div class="event_schedule ">
+            <div class="event event_1 ">
+                <div class="date">
+                    <span class="event_day ">25</span>
+                    <span class="event_month">November</span>
+                </div>
+                <div class="location">
+                    <span class="thecolor">The Venue</span>
+                    <div class=" city">
+                        <span class="thecolor">\New York, NY</span>
+                    </div>
+                </div>
+
+                <div class="reservation">
+
+                    <button class="notify" src=" "> Notify me</button>
+                </div>
+            </div>
+        </div>
+        <footer >
+            <div class="container.container-fluid ">
+                © 2020 by Cashley Saintilus
+            </div>
+        </footer>
+        </div>
+  
+    
 
 </body>
 

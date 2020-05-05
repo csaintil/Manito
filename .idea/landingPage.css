@@ -1,6 +1,15 @@
 * {
-    margin: 0;
+    margin: 0 ;
     padding: 0;
+}
+p {
+    margin:0px 0px 0px 0px !important;
+}
+.special_words {
+    color: orange;
+    text-decoration: underline;
+    font-weight: lighter;
+    text-decoration-thickness: 0.2rem;
 }
 body  {
     background-image: url(../Images/e0c95924-4dff-402d-8934-df8b4eb84519.jpeg);
@@ -9,10 +18,16 @@ body  {
     background-attachment: fixed;
     height: 100vh;
     background-position-x: center;
+    overflow-x: hidden;
     
   }
   .navbar {
       position: absolute !important;
+     
+  }
+  .navbar-brand{
+    text-shadow: 2px 2px #000000;
+    z-index: 99999999999 !important;
   }
   nav{
     margin-bottom: 18em;
@@ -20,19 +35,15 @@ body  {
   .fonts {
     color: #bbb;
     font-size: 24px;
-    display: flex;
-    justify-content: flex-end;
-    justify-content: space-evenly;
-    position: relative;
-    top: 6px;
-    left: 70%;
-    width: 20%;
+    margin-left: 58%;
 }
 .media_container{
     height: 100%;
 }
 .icon {
-    margin-right: 18px;
+    margin-right: 7px;
+    color: orange;
+
 
 }
 
@@ -41,29 +52,24 @@ body  {
     align-items: center;
     position: relative !important;
     top: 147px;
-    left: 8%;
     color: #FE9B36;
     font-size: 82px;
     font-weight: bolder;
     font-family: 'Calibri', 'sans-serif';
     font-weight: lighter;
+    text-align: center;
 }
 
 /* ----------------------------------------------end of Nav bar and page 1 ---------------------------- */
 .discography { 
     color: white;
-    display: flex;
-    width: 88%;
-    margin: 0% 15% 0% 7%;
-    height: 118%;
     padding-top: 2em;
-    flex-direction: column;
 }
 .discography_container {
 
     background-color: black;
     /* overflow-x: hidden; */
-    width: 103vw !important;
+    /* width: 103vw !important; */
      
  }
 
@@ -76,14 +82,15 @@ body  {
     
 }
 .album_description >h2 {
-    font-size: 14px;
-color: white;
-width: 153px;
-border: 1px solid orange;
-border-radius: 14px;
-text-align: center;
-height: 23px;
-padding-top: 1px;
+    font-size: 16px;
+    color: white;
+    width: 122px;
+    border: 1px solid orange;
+    border-radius: 14px;
+    text-align: center;
+    height: 28px;
+    padding-top: 1.5px;
+    font-weight: bolder;
 }
 
 .discography > .album_container {
@@ -98,40 +105,39 @@ padding-top: 1px;
    font-size: 16px;
    margin-top: 37px;
    line-height: 28px;
+   text-align: justify;
    }
 
 
 .album_pic{
     max-width: 100%;
+    margin-bottom: 33px;
+    height: auto;
   
 }
 /* -----------------------------------------------------------END OF DISCROGRAPGY---------- */
 .about_container {
     background: #ffffff;
- 
-    width: 103% !important;
-}
+ }
 
 .history_description{
-  
-    position: relative;
-    left: 8%;
-    top: 4%;
+    padding-top: 2em;
 }
 .history_description > .about_info {
     margin-right: 38px;
 }
 .history_description > .about_info > h2{
-    font-size: 13px;
+    font-size: 17px;
     color: black;
-    width: 102px;
+    width: 105px;
     border: 1.7px solid orange;
     border-radius: 14px;
     text-align: center;
     padding-top: 2px;
-    height: 23px;
+    height: 29px;
     position: relative;
     top: 19px;
+    font-weight: bolder;
 
 }
  .about_me_h1{
@@ -142,6 +148,7 @@ padding-top: 1px;
     margin-top: 33px;
     font-size: 16px;
     line-height: 28px;
+    text-align: justify;
 }
 .music_info {
     margin-right: 18px;
@@ -154,34 +161,28 @@ padding-top: 1px;
 /* -------------------------------------end of about section ------------------------------------- */
 
 .event_container {
-    background-color:orange
-
+    background-color:orange;
+  /* width: 103vw !important; */
 }
-.event_para {
-    
-    position: relative;
-    left: 55px;
-    top: 15px;
+.event_para {  
+    margin: 0% 15% 0% 7%;
+    padding-top: 2em;
 }
 .event_description {
-   
-    width: 81vw;
+   /* width: 103vh; */
   
 }
 
 .image-wrapper > img  { 
-     max-width: 100%;
-
+max-width: 100%;
 height: auto;
-
 }
 
 .image-wrapper {
-position: relative;
-overflow: hidden;
+
 border-color: #e2e2e2;
-top: -15px;
-width: 124%;
+/* width: 103vw; */
+/* margin-left: -15px; */
 }
 .event_para > h2 {
     font-size: 17px;
@@ -203,6 +204,7 @@ width: 124%;
     font-size: 16px;
     margin-top: 37px;
     line-height: 28px;
+    text-align: justify;
 }
 
 /* --------------------------------------------------end of tour description ------------------------------------ */
@@ -215,6 +217,7 @@ width: 124%;
 .event{
     border-bottom: 1.5px solid black;
     height: 25vh;
+    margin-left: 22px;
 }
 
 .event_day {
@@ -269,3 +272,4 @@ padding-left: 9px;
     color: #0e0e0e;
 
 }
+

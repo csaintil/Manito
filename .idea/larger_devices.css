@@ -1,0 +1,115 @@
+/* // Large devices (desktops, less than 1200px) */
+@media (min-width: 768px)  { 
+
+/* ------------------------nav_bar--------------------------------- */
+#navi { width: 36%;}
+
+/* ------------------------------------Brand */
+.promotion_album {}
+/* ------------------Ablum------------- */
+.discography { 
+        color: white;
+        display: flex;
+        /* width: 87%; */
+        margin: 0% 15%;
+        height: 94vh;
+        padding-top: 63px;
+    }
+
+    .album_description {
+        font-size: 18px;
+        width: 47vw;
+    }
+    .discography > .album_container {
+        position: relative;
+       left: 10%;
+       }
+    .album_pic{
+        max-width: 100%;
+    
+        height: 71%;
+    }
+
+
+/* ---------------------------------------------About ------------------------------ */
+.about_container {
+    height: 86vh;
+}
+
+.history_description{
+    display: flex;
+    width: 64vw;
+    position: relative;
+    left: 15%;
+   
+}
+.history_description > .about_info {
+    margin-right: 74px;
+}
+
+
+.music_info {
+    margin-right: 18px;
+}
+.music_info_h1 {
+        font-size: 44px;
+        padding-top: 61px;
+}
+    .icon {
+        
+        
+        color: red;
+    }
+ 
+    }
+/* -----------------------------------------------------------------event-------------------------- */
+.event_para {
+    
+    /* position: relative;
+    left: 73px;
+    top: 65px; */
+}
+.event_description {
+    /* display: flex;
+    width: 64vw;
+    position: relative;
+    top: 16%; */
+}
+
+
+/* .image-wrapper {
+position: relative;
+overflow: hidden;
+border-color: #e2e2e2;
+top: -137px;
+width: 170%;
+} */
+/* .event_para > h2 {
+    font-size: 13px;
+    color: black;
+    width: 102px;
+    border: 1.7px solid rgb(255, 255, 255);
+    border-radius: 14px;
+    text-align: center;
+    padding-top: 5px;
+    height: 23px;
+
+}
+
+.event_para > h1 {
+    font-size: 44px;
+    padding-top: 61px;
+}
+
+.event_para >  p {
+    font-size: 16px;
+    margin-top: 37px;
+    line-height: 28px;
+}
+.selector-for-some-widget {
+    box-sizing: content-box;
+  } */
+
+
+
+ 
