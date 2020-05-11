@@ -12,13 +12,16 @@ p {
   text-decoration-thickness: 0.2rem;
 }
 body {
-  background-image: url(./Images/e0c95924-4dff-402d-8934-df8b4eb84519.jpeg);
+
+  overflow-x: hidden;
+}
+.well {
+    background-image: url(./Images/e0c95924-4dff-402d-8934-df8b4eb84519.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
   background-position-x: center;
-  overflow-x: hidden;
 }
 #navbarNav {
   /* position: absolute !important; */
