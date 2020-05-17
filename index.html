@@ -10,8 +10,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="../JS/landing.js"></script>
     <script src="https://kit.fontawesome.com/298d08bd5d.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../JS/landing.js"></script>
+
 
     
     <!-- <nav class="navbar fixed-bottom navi navbar-dark  bg-* container-fluid" id="navi" role="navigation">
@@ -22,7 +24,7 @@
         <a class="navbar-brand" href="#tour"> Tour</a>
         
     </nav> -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top" id="bar">
         <a class="navbar-brand" href="#"><i class="fab fa-napster"></i></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -49,6 +51,8 @@
 
 <body>
  <div class="well">
+    <div class="promotion_album"> MANITO NATION </div>
+
 
  </div>
 
@@ -126,7 +130,7 @@
     <div class="event_container container-fluid " id="tour">
         <div class=" event_description">
             <div class="image-wrapper">
-                <img class="image" src="./Images/Profile_test2.jpg" alt="">
+                <img class="image" src="./Images/Profile_1_B&W.jpg" alt="">
             </div>
             <div class="event_para">
                 <h2>My tour</h2>
@@ -217,13 +221,33 @@
               
                             </ul>
                         </div>
+                        <div></div>
                         <div class="col-lg-3 col-sm-2 col-xs-3">
-                            <ul>
+                            <!-- <ul>
                                 <li> <h5> <a href="#home" style="margin-top: 5em"> Home</a> <h5></li>
                                 <li> <h5><a href="#disco"> Discography </a> <h5></li>
                                 <li> <h5><a href="#about"> About </a> <h5></li>
                                 <li> <h5><a href="#tour">  Tour </a> <h5></li>
-                            </ul>
+                            </ul> -->
+                            <div class="news"> MAILING LIST</div>
+                             <div class="news_desc"> Join the Manito Nation mailing list to stay up-to-date.</div>
+                                
+                                
+                            <form method="post" action="//submit.form" onSubmit="return validateForm();">
+                                <div style="max-width: 400px;">
+                                </div>
+                                <div >Email<span style="color: red;"> *</span><br/>
+                                <input type="text" id="data_4" name="data_4" style="max-width : 450px;" class="form-control"/>
+                                </div>
+                                <div ><br/>
+                                <span><input type="checkbox" id="data_6_0" name="data_6" value="I agree to Terms of Service and Privacy Policy"/> I agree to Terms of Service and Privacy Policy</span><br/>
+                                </div>
+                                <div ><input name="skip_Submit" class="sign_up" value="Sign Up" type="submit"/></div>
+                                <div>
+                                <div style="float:right"><a href="https://www.100forms.com" id="lnk100" title="form to email"></a></div>
+                                <script SameSite='None' src="https://www.100forms.com/js/FORMKEY:99FZ7NGQRAT4" type="text/javascript"></script>
+                                </div>
+                                </form>
                         </div>
                        
                     <!--/.row--> 
@@ -234,11 +258,12 @@
                                   
             <div class="footer-bottom">
                 <div class="container">
-                    <p class="pull-left copyright"> Copyright © Footer 2014. All right reserved. </p>
+                    <p class="pull-left copyright"> Copyright © Footer 2020. All right reserved. </p>
                
                 </div>
             </div>
             <!--/.footer-bottom--> 
+            
         
         </footer>
   

@@ -4,7 +4,24 @@
   #navi {
     width: 36%;
   }
+  /* ------------------------------first section----------------------------- */
 
+  .promotion_album {
+    font-size: 99px;
+    padding-left: 2em;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    font-weight: 650;
+    color: #fcf000 !important;
+    margin-right: 75px;
+    font-size: 24px;
+  }
+  #bar {
+    /* background-color: #343a4000!important; */
+    background-color: black !important;
+  }
+  .well {
+  }
  
   /* ------------------Ablum------------- */
   .discography {

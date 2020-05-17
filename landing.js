@@ -1,2 +1,0 @@
-window.onscroll = function() {scrollFunction()};
-
