@@ -9,6 +9,7 @@
   .promotion_album {
     font-size: 99px;
     padding-left: 2em;
+    text-align: start;
   }
   .navbar-light .navbar-nav .nav-link {
     font-weight: 650;
@@ -21,6 +22,8 @@
     background-color: black !important;
   }
   .well {
+      background-attachment: fixed;
+
   }
  
   /* ------------------Ablum------------- */
