@@ -20,7 +20,7 @@ function validateForm() {
 
 
         $(window).scroll(function(){
-            $('#bar').toggleClass('scrolled', $(this).scrollTop() > 50);
+            $('#bar').toggleClass('scrolled', $(this).scrollTop() > 720);
         });
 
 

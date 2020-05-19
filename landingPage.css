@@ -17,7 +17,7 @@ body {
   overflow-x: hidden;
 }
 .well {
-    background-image: url(./Images/Profile_test2.jpg);
+    background-image: url(./Images/Profile_2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   /* background-attachment: fixed; */
@@ -405,5 +405,10 @@ font-size: 0.75em
 }
 
 #bar.scrolled{
-  background: red;
+  background: black;
+  -webkit-transition: all .8s;
+  -moz-transition: all .8s;
+  -ms-transition: all .8s;
+  -o-transition: all .8s;
+  transition: all .8s;
 }
