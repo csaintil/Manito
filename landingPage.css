@@ -32,7 +32,7 @@ body {
 }
 .navbar-brand {
   text-shadow: 2px 2px #000000;
-  z-index: 99999999999 !important;
+  /* z-index: 99999999999 !important; */
 }
 nav {
   margin-bottom: 18em;
@@ -60,6 +60,19 @@ nav {
   text-align: center;
 
 }
+.navbar-light .navbar-nav .nav-link {
+  color: #fcf000 !important;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: black!important;
+  background-color: white;
+}
+.bg-dark {
+  background-color: black;
+}
+
+
 
 /* ----------------------------------------------end of Nav bar and page 1 ---------------------------- */
 .discography {
@@ -385,6 +398,10 @@ font-size: 0.75em
   border: 2px solid #0e0e0e;
   color: #0e0e0e;
 
+}
+.sign_up:hover {
+  background-color: black;
+  color: white;
 }
 
 #bar.scrolled{
